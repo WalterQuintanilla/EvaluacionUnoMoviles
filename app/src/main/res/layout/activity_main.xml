@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desarrollo Evaluacion Uno!"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+         />
+
+    <Button
+        android:id="@+id/btnNuevoEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NUEVO ESTUDIANTE"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/btnVerListaEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LISTA ESTUDIANTE"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnmisDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MIS DATOS"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onClick"/>
+
+</LinearLayout>

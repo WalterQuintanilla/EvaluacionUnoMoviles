@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_weight="0.2"
+        android:layout_width="0dp"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_height="match_parent"
+        />
+
+    <LinearLayout
+        android:weightSum="1"
+        android:layout_weight="0.8"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_weight="0.33"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Nombre"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txvCodigo"
+            android:layout_weight="0.33"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Mi nombre"/>
+
+        <LinearLayout
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_weight="0.33"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/txtMateria"
+                android:layout_weight="0.35"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:id="@+id/txtNota"
+                android:layout_weight="0.65"
+                android:layout_width="0dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
